@@ -33,6 +33,6 @@ var esScheme string
 func init() {
 	rootCmd.AddCommand(esCmd)
 	esCmd.PersistentFlags().StringVar(&esHost, "es-host", "localhost", "Hostname of ES load balancer or cluster member")
-	esCmd.PersistentFlags().StringVar(&esPort, "es-port", "10141", "Port number of ES load balancer or cluster member")
+	esCmd.PersistentFlags().StringVar(&esPort, "es-port", "10144", "Port number of ES load balancer or cluster member")
 	esCmd.PersistentFlags().StringVar(&esScheme, "es-scheme", "http", "Scheme can be http or https")
 }
