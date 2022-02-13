@@ -33,11 +33,10 @@ var statusCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		esURL := fmt.Sprintf("%s://%s:%s/_cluster/health?pretty&level=%s", esScheme, esHost, esPort, level)
 		resp, err := http.Get(esURL)
-		if err != nil {
-			errorExit("es status", err)
-		}
+		errorExit(err)
+
 		defer resp.Body.Close()
-		body, err := ioutil.ReadAll(resp.Body)
+		body, _ := ioutil.ReadAll(resp.Body)
 		fmt.Println(string(body))
 	},
 }

@@ -32,11 +32,10 @@ var indicesListCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		esURL := fmt.Sprintf("%s://%s:%s/_cat/indices?format=json", esScheme, esHost, esPort)
 		resp, err := http.Get(esURL)
-		if err != nil {
-			errorExit("es indices", err)
-		}
+		errorExit(err)
+
 		defer resp.Body.Close()
-		body, err := ioutil.ReadAll(resp.Body)
+		body, _ := ioutil.ReadAll(resp.Body)
 
 		// Unmarshall the indices
 		var indices types.ESIndices

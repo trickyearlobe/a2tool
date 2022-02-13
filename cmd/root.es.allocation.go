@@ -34,11 +34,10 @@ var allocationCmd = &cobra.Command{
 		// Call the ES REST API
 		esURL := fmt.Sprintf("%s://%s:%s/_cat/allocation?&format=json", esScheme, esHost, esPort)
 		resp, err := http.Get(esURL)
-		if err != nil {
-			errorExit("es allocation", err)
-		}
+		errorExit(err)
+
 		defer resp.Body.Close()
-		body, err := ioutil.ReadAll(resp.Body)
+		body, _ := ioutil.ReadAll(resp.Body)
 
 		// Unmarshall the allocations
 		var alloc types.ESAllocations

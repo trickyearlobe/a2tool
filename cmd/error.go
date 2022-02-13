@@ -19,24 +19,33 @@ package cmd
 import (
 	"fmt"
 	"os"
+	"path/filepath"
+	"runtime"
 )
 
-func errorExit(location string, msg interface{}) {
-	fmt.Printf(`
+const ermintrudeSays = `
 
-              __n__n__
-       .------'-\00/-'
-      /  ##  ## (oo)
-      / \## __   ./
-        |//YY \|/
-        |||   |||
+         __n__n__
+  .------'-\00/-'
+ /  ##  ## (oo)
+/ \## __   ./
+  |//YY \|/
+  |||   |||
 
-Ermintrude says "Oh my, something went wrong in '%s'"
+Ermintrude says "Oh my gosh, something went wrong near %s line %d"
 
 It looks a bit technical
 %s
 
-  `, location, msg)
+`
 
+func errorExit(err interface{}) {
+	if err == nil {
+		return
+	}
+
+	_, filename, line, _ := runtime.Caller(1)
+	filename = filepath.Base(filename)
+	fmt.Printf(ermintrudeSays, filename, line, err)
 	os.Exit(1)
 }

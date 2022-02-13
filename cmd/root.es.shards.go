@@ -34,11 +34,10 @@ var shardsCmd = &cobra.Command{
 		// Call the ES REST API
 		esURL := fmt.Sprintf("%s://%s:%s/_cat/shards?format=json", esScheme, esHost, esPort)
 		resp, err := http.Get(esURL)
-		if err != nil {
-			errorExit("es shards", err)
-		}
+		errorExit(err)
+
 		defer resp.Body.Close()
-		body, err := ioutil.ReadAll(resp.Body)
+		body, _ := ioutil.ReadAll(resp.Body)
 
 		// Unmarshall the nodes
 		var shards types.ESShards

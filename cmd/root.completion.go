@@ -33,14 +33,12 @@ var completionCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		completionsPathCmd := exec.Command("bash", "-c", "pkg-config --variable=completionsdir bash-completion")
 		completionsPathOutput, cmdErr := completionsPathCmd.CombinedOutput()
-		if cmdErr != nil {
-			errorExit("completion path", cmdErr)
-		}
+		errorExit(cmdErr)
+
 		completionsPath := fmt.Sprintf("%s/a2tool", strings.TrimSuffix(string(completionsPathOutput), "\n"))
 		completionFile, fileErr := os.Create(completionsPath)
-		if fileErr != nil {
-			errorExit("completion create file", fileErr)
-		}
+		errorExit(fileErr)
+
 		defer completionFile.Close()
 		rootCmd.GenBashCompletion(completionFile)
 		fmt.Printf("Completions written to %s\nPlease reload your session to activate changes\n", completionsPath)
