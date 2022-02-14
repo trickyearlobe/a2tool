@@ -34,10 +34,9 @@ var completionCmd = &cobra.Command{
 		var completionsPathOutput string
 
 		// If /etc/bash_completion.d exists, use that, otherwise use pkg-config
-		stat, err := os.Stat("/etc/bash_completion.d")
+		_, err := os.Stat("/etc/bash_completion.d")
 		if err == nil {
 			completionsPathOutput = "/etc/bash_completion.d"
-			fmt.Printf("Found completions path at %s with stat %v\n", completionsPathOutput, stat)
 		} else {
 			completionsPathCmd := exec.Command("bash", "-c", "pkg-config --variable=completionsdir bash-completion")
 			output, cmdErr := completionsPathCmd.CombinedOutput()
@@ -47,6 +46,7 @@ var completionCmd = &cobra.Command{
 			}
 		}
 
+		fmt.Printf("Found completions path at %s\n", completionsPathOutput)
 		completionsPath := fmt.Sprintf("%s/a2tool", strings.TrimSuffix(completionsPathOutput, "\n"))
 		completionFile, fileErr := os.Create(completionsPath)
 		errorExit(fileErr)
