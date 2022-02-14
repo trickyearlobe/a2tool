@@ -31,11 +31,23 @@ var completionCmd = &cobra.Command{
 	Short: "Generate bash completion script (requires bash-completions package)",
 
 	Run: func(cmd *cobra.Command, args []string) {
-		completionsPathCmd := exec.Command("bash", "-c", "pkg-config --variable=completionsdir bash-completion")
-		completionsPathOutput, cmdErr := completionsPathCmd.CombinedOutput()
-		errorExit(cmdErr)
+		var completionsPathOutput string
 
-		completionsPath := fmt.Sprintf("%s/a2tool", strings.TrimSuffix(string(completionsPathOutput), "\n"))
+		// If /etc/bash_completion.d exists, use that, otherwise use pkg-config
+		stat, err := os.Stat("/etc/bash_completion.d")
+		if err == nil {
+			completionsPathOutput = "/etc/bash_completion.d"
+			fmt.Printf("Found completions path at %s with stat %v\n", completionsPathOutput, stat)
+		} else {
+			completionsPathCmd := exec.Command("bash", "-c", "pkg-config --variable=completionsdir bash-completion")
+			output, cmdErr := completionsPathCmd.CombinedOutput()
+			completionsPathOutput = string(output)
+			if cmdErr != nil {
+				errorExit(fmt.Errorf("failed to dynamically locate completions path with `pkg-config --variable=completionsdir bash-completion`"))
+			}
+		}
+
+		completionsPath := fmt.Sprintf("%s/a2tool", strings.TrimSuffix(completionsPathOutput, "\n"))
 		completionFile, fileErr := os.Create(completionsPath)
 		errorExit(fileErr)
 
