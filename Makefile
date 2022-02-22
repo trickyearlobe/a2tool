@@ -20,4 +20,9 @@ install:
 clean:
 	if [ -f a2tool ] ; then rm a2tool ; fi
 
-.PHONY: clean install
+test:
+	go test github.com/trickyearlobe/a2tool/types
+
+all: clean test install
+
+.PHONY: clean install test

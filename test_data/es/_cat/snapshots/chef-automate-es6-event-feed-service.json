@@ -1,0 +1,28 @@
+[
+  {
+    "id": "20220212152222",
+    "status": "SUCCESS",
+    "start_epoch": "1644679344",
+    "start_time": "15:22:24",
+    "end_epoch": "1644679346",
+    "end_time": "15:22:26",
+    "duration": "2.6s",
+    "indices": "1",
+    "successful_shards": "5",
+    "failed_shards": "0",
+    "total_shards": "5"
+  },
+  {
+    "id": "20220214015037",
+    "status": "SUCCESS",
+    "start_epoch": "1644803443",
+    "start_time": "01:50:43",
+    "end_epoch": "1644803446",
+    "end_time": "01:50:46",
+    "duration": "2.9s",
+    "indices": "1",
+    "successful_shards": "5",
+    "failed_shards": "0",
+    "total_shards": "5"
+  }
+]

@@ -1,0 +1,3369 @@
+{
+  "snapshots": [
+    {
+      "snapshot": "20220221003105",
+      "repository": "chef-automate-es6-compliance-service",
+      "uuid": "ZIUQfwsfQumPybBlq3PRZg",
+      "state": "STARTED",
+      "include_global_state": true,
+      "shards_stats": {
+        "initializing": 106,
+        "started": 4,
+        "finalizing": 0,
+        "done": 20,
+        "failed": 0,
+        "total": 130
+      },
+      "stats": {
+        "incremental": {
+          "file_count": 2214,
+          "size_in_bytes": 152028079752
+        },
+        "processed": {
+          "file_count": 2026,
+          "size_in_bytes": 105897133610
+        },
+        "total": {
+          "file_count": 2214,
+          "size_in_bytes": 152028079752
+        },
+        "start_time_in_millis": 0,
+        "time_in_millis": 1645403806152,
+        "number_of_files": 2214,
+        "processed_files": 2026,
+        "total_size_in_bytes": 152028079752,
+        "processed_size_in_bytes": 105897133610
+      },
+      "indices": {
+        "comp-7-r-2022.02.18": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.19": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.16": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-r-2022.02.17": {
+          "shards_stats": {
+            "initializing": 1,
+            "started": 4,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 693,
+              "size_in_bytes": 137715368490
+            },
+            "processed": {
+              "file_count": 505,
+              "size_in_bytes": 91584422348
+            },
+            "total": {
+              "file_count": 693,
+              "size_in_bytes": 137715368490
+            },
+            "start_time_in_millis": 1645403501613,
+            "time_in_millis": 36714,
+            "number_of_files": 693,
+            "processed_files": 505,
+            "total_size_in_bytes": 137715368490,
+            "processed_size_in_bytes": 91584422348
+          },
+          "shards": {
+            "0": {
+              "stage": "STARTED",
+              "stats": {
+                "incremental": {
+                  "file_count": 170,
+                  "size_in_bytes": 33765232489
+                },
+                "processed": {
+                  "file_count": 121,
+                  "size_in_bytes": 21773978306
+                },
+                "total": {
+                  "file_count": 170,
+                  "size_in_bytes": 33765232489
+                },
+                "start_time_in_millis": 1645403593118,
+                "time_in_millis": 0,
+                "number_of_files": 170,
+                "processed_files": 121,
+                "total_size_in_bytes": 33765232489,
+                "processed_size_in_bytes": 21773978306
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "STARTED",
+              "stats": {
+                "incremental": {
+                  "file_count": 180,
+                  "size_in_bytes": 35305782894
+                },
+                "processed": {
+                  "file_count": 139,
+                  "size_in_bytes": 21768706899
+                },
+                "total": {
+                  "file_count": 180,
+                  "size_in_bytes": 35305782894
+                },
+                "start_time_in_millis": 1645403523804,
+                "time_in_millis": 0,
+                "number_of_files": 180,
+                "processed_files": 139,
+                "total_size_in_bytes": 35305782894,
+                "processed_size_in_bytes": 21768706899
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "STARTED",
+              "stats": {
+                "incremental": {
+                  "file_count": 182,
+                  "size_in_bytes": 34989560897
+                },
+                "processed": {
+                  "file_count": 124,
+                  "size_in_bytes": 23264140945
+                },
+                "total": {
+                  "file_count": 182,
+                  "size_in_bytes": 34989560897
+                },
+                "start_time_in_millis": 1645403538327,
+                "time_in_millis": 0,
+                "number_of_files": 182,
+                "processed_files": 124,
+                "total_size_in_bytes": 34989560897,
+                "processed_size_in_bytes": 23264140945
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "STARTED",
+              "stats": {
+                "incremental": {
+                  "file_count": 161,
+                  "size_in_bytes": 33654792210
+                },
+                "processed": {
+                  "file_count": 121,
+                  "size_in_bytes": 24777596198
+                },
+                "total": {
+                  "file_count": 161,
+                  "size_in_bytes": 33654792210
+                },
+                "start_time_in_millis": 1645403501613,
+                "time_in_millis": 0,
+                "number_of_files": 161,
+                "processed_files": 121,
+                "total_size_in_bytes": 33654792210,
+                "processed_size_in_bytes": 24777596198
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-s-2022.02.20": {
+          "shards_stats": {
+            "initializing": 1,
+            "started": 0,
+            "finalizing": 0,
+            "done": 4,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 345,
+              "size_in_bytes": 1075271154
+            },
+            "total": {
+              "file_count": 345,
+              "size_in_bytes": 1075271154
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 1645403585805,
+            "number_of_files": 345,
+            "processed_files": 345,
+            "total_size_in_bytes": 1075271154,
+            "processed_size_in_bytes": 1075271154
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 113,
+                  "size_in_bytes": 303637841
+                },
+                "total": {
+                  "file_count": 113,
+                  "size_in_bytes": 303637841
+                },
+                "start_time_in_millis": 1645403502252,
+                "time_in_millis": 21551,
+                "number_of_files": 113,
+                "processed_files": 113,
+                "total_size_in_bytes": 303637841,
+                "processed_size_in_bytes": 303637841
+              }
+            },
+            "2": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 63,
+                  "size_in_bytes": 232091917
+                },
+                "total": {
+                  "file_count": 63,
+                  "size_in_bytes": 232091917
+                },
+                "start_time_in_millis": 1645403502073,
+                "time_in_millis": 14189,
+                "number_of_files": 63,
+                "processed_files": 63,
+                "total_size_in_bytes": 232091917,
+                "processed_size_in_bytes": 232091917
+              }
+            },
+            "3": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 77,
+                  "size_in_bytes": 235411493
+                },
+                "total": {
+                  "file_count": 77,
+                  "size_in_bytes": 235411493
+                },
+                "start_time_in_millis": 1645403569009,
+                "time_in_millis": 16796,
+                "number_of_files": 77,
+                "processed_files": 77,
+                "total_size_in_bytes": 235411493,
+                "processed_size_in_bytes": 235411493
+              }
+            },
+            "4": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 92,
+                  "size_in_bytes": 304129903
+                },
+                "total": {
+                  "file_count": 92,
+                  "size_in_bytes": 304129903
+                },
+                "start_time_in_millis": 1645403548824,
+                "time_in_millis": 19848,
+                "number_of_files": 92,
+                "processed_files": 92,
+                "total_size_in_bytes": 304129903,
+                "processed_size_in_bytes": 304129903
+              }
+            }
+          }
+        },
+        "comp-7-s-2022.02.21": {
+          "shards_stats": {
+            "initializing": 3,
+            "started": 0,
+            "finalizing": 0,
+            "done": 2,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 70,
+              "size_in_bytes": 13529338
+            },
+            "total": {
+              "file_count": 70,
+              "size_in_bytes": 13529338
+            },
+            "start_time_in_millis": 1645403804396,
+            "time_in_millis": 1756,
+            "number_of_files": 70,
+            "processed_files": 70,
+            "total_size_in_bytes": 13529338,
+            "processed_size_in_bytes": 13529338
+          },
+          "shards": {
+            "0": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 38,
+                  "size_in_bytes": 6804525
+                },
+                "total": {
+                  "file_count": 38,
+                  "size_in_bytes": 6804525
+                },
+                "start_time_in_millis": 1645403797015,
+                "time_in_millis": 2326,
+                "number_of_files": 38,
+                "processed_files": 38,
+                "total_size_in_bytes": 6804525,
+                "processed_size_in_bytes": 6804525
+              }
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 32,
+                  "size_in_bytes": 6724813
+                },
+                "total": {
+                  "file_count": 32,
+                  "size_in_bytes": 6724813
+                },
+                "start_time_in_millis": 1645403804396,
+                "time_in_millis": 1756,
+                "number_of_files": 32,
+                "processed_files": 32,
+                "total_size_in_bytes": 6724813,
+                "processed_size_in_bytes": 6724813
+              }
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.10": {
+          "shards_stats": {
+            "initializing": 3,
+            "started": 0,
+            "finalizing": 0,
+            "done": 2,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 216,
+              "size_in_bytes": 5989367314
+            },
+            "total": {
+              "file_count": 216,
+              "size_in_bytes": 5989367314
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 216,
+            "processed_files": 216,
+            "total_size_in_bytes": 5989367314,
+            "processed_size_in_bytes": 5989367314
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 107,
+                  "size_in_bytes": 3179336036
+                },
+                "total": {
+                  "file_count": 107,
+                  "size_in_bytes": 3179336036
+                },
+                "start_time_in_millis": 1645403687482,
+                "time_in_millis": 146839,
+                "number_of_files": 107,
+                "processed_files": 107,
+                "total_size_in_bytes": 3179336036,
+                "processed_size_in_bytes": 3179336036
+              }
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 109,
+                  "size_in_bytes": 2810031278
+                },
+                "total": {
+                  "file_count": 109,
+                  "size_in_bytes": 2810031278
+                },
+                "start_time_in_millis": 1645403501604,
+                "time_in_millis": 143974,
+                "number_of_files": 109,
+                "processed_files": 109,
+                "total_size_in_bytes": 2810031278,
+                "processed_size_in_bytes": 2810031278
+              }
+            }
+          }
+        },
+        "comp-7-r-2022.02.11": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.14": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.15": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-r-2022.02.12": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.13": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-r-2022.02.09": {
+          "shards_stats": {
+            "initializing": 4,
+            "started": 0,
+            "finalizing": 0,
+            "done": 1,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 112,
+              "size_in_bytes": 4917700946
+            },
+            "total": {
+              "file_count": 112,
+              "size_in_bytes": 4917700946
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 112,
+            "processed_files": 112,
+            "total_size_in_bytes": 4917700946,
+            "processed_size_in_bytes": 4917700946
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 112,
+                  "size_in_bytes": 4917700946
+                },
+                "total": {
+                  "file_count": 112,
+                  "size_in_bytes": 4917700946
+                },
+                "start_time_in_millis": 1645403549084,
+                "time_in_millis": 243649,
+                "number_of_files": 112,
+                "processed_files": 112,
+                "total_size_in_bytes": 4917700946,
+                "processed_size_in_bytes": 4917700946
+              }
+            }
+          }
+        },
+        "comp-3-profiles": {
+          "shards_stats": {
+            "initializing": 2,
+            "started": 0,
+            "finalizing": 0,
+            "done": 3,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 163,
+              "size_in_bytes": 98072494
+            },
+            "total": {
+              "file_count": 163,
+              "size_in_bytes": 98072494
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 1645403804081,
+            "number_of_files": 163,
+            "processed_files": 163,
+            "total_size_in_bytes": 98072494,
+            "processed_size_in_bytes": 98072494
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 56,
+                  "size_in_bytes": 33192788
+                },
+                "total": {
+                  "file_count": 56,
+                  "size_in_bytes": 33192788
+                },
+                "start_time_in_millis": 1645403799341,
+                "time_in_millis": 4740,
+                "number_of_files": 56,
+                "processed_files": 56,
+                "total_size_in_bytes": 33192788,
+                "processed_size_in_bytes": 33192788
+              }
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 46,
+                  "size_in_bytes": 31575216
+                },
+                "total": {
+                  "file_count": 46,
+                  "size_in_bytes": 31575216
+                },
+                "start_time_in_millis": 1645403792733,
+                "time_in_millis": 3691,
+                "number_of_files": 46,
+                "processed_files": 46,
+                "total_size_in_bytes": 31575216,
+                "processed_size_in_bytes": 31575216
+              }
+            },
+            "4": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 61,
+                  "size_in_bytes": 33304490
+                },
+                "total": {
+                  "file_count": 61,
+                  "size_in_bytes": 33304490
+                },
+                "start_time_in_millis": 1645403538486,
+                "time_in_millis": 5618,
+                "number_of_files": 61,
+                "processed_files": 61,
+                "total_size_in_bytes": 33304490,
+                "processed_size_in_bytes": 33304490
+              }
+            }
+          }
+        },
+        "comp-7-s-2022.02.13": {
+          "shards_stats": {
+            "initializing": 4,
+            "started": 0,
+            "finalizing": 0,
+            "done": 1,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 46,
+              "size_in_bytes": 67385540
+            },
+            "total": {
+              "file_count": 46,
+              "size_in_bytes": 67385540
+            },
+            "start_time_in_millis": 1645403585805,
+            "time_in_millis": 7313,
+            "number_of_files": 46,
+            "processed_files": 46,
+            "total_size_in_bytes": 67385540,
+            "processed_size_in_bytes": 67385540
+          },
+          "shards": {
+            "0": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 46,
+                  "size_in_bytes": 67385540
+                },
+                "total": {
+                  "file_count": 46,
+                  "size_in_bytes": 67385540
+                },
+                "start_time_in_millis": 1645403585805,
+                "time_in_millis": 7313,
+                "number_of_files": 46,
+                "processed_files": 46,
+                "total_size_in_bytes": 67385540,
+                "processed_size_in_bytes": 67385540
+              }
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-s-2022.02.14": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-s-2022.02.15": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-s-2022.02.16": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-s-2022.02.10": {
+          "shards_stats": {
+            "initializing": 3,
+            "started": 0,
+            "finalizing": 0,
+            "done": 2,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 130,
+              "size_in_bytes": 55350085
+            },
+            "total": {
+              "file_count": 130,
+              "size_in_bytes": 55350085
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 130,
+            "processed_files": 130,
+            "total_size_in_bytes": 55350085,
+            "processed_size_in_bytes": 55350085
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 65,
+                  "size_in_bytes": 26628847
+                },
+                "total": {
+                  "file_count": 65,
+                  "size_in_bytes": 26628847
+                },
+                "start_time_in_millis": 1645403645579,
+                "time_in_millis": 4003,
+                "number_of_files": 65,
+                "processed_files": 65,
+                "total_size_in_bytes": 26628847,
+                "processed_size_in_bytes": 26628847
+              }
+            },
+            "3": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 65,
+                  "size_in_bytes": 28721238
+                },
+                "total": {
+                  "file_count": 65,
+                  "size_in_bytes": 28721238
+                },
+                "start_time_in_millis": 1645403544105,
+                "time_in_millis": 4979,
+                "number_of_files": 65,
+                "processed_files": 65,
+                "total_size_in_bytes": 28721238,
+                "processed_size_in_bytes": 28721238
+              }
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-s-2022.02.11": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            }
+          }
+        },
+        "comp-7-s-2022.02.12": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-s-2022.02.17": {
+          "shards_stats": {
+            "initializing": 2,
+            "started": 0,
+            "finalizing": 0,
+            "done": 3,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 266,
+              "size_in_bytes": 924979192
+            },
+            "total": {
+              "file_count": 266,
+              "size_in_bytes": 924979192
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 1645403548571,
+            "number_of_files": 266,
+            "processed_files": 266,
+            "total_size_in_bytes": 924979192,
+            "processed_size_in_bytes": 924979192
+          },
+          "shards": {
+            "0": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 68,
+                  "size_in_bytes": 271104492
+                },
+                "total": {
+                  "file_count": 68,
+                  "size_in_bytes": 271104492
+                },
+                "start_time_in_millis": 1645403501613,
+                "time_in_millis": 19548,
+                "number_of_files": 68,
+                "processed_files": 68,
+                "total_size_in_bytes": 271104492,
+                "processed_size_in_bytes": 271104492
+              }
+            },
+            "1": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 99,
+                  "size_in_bytes": 321093403
+                },
+                "total": {
+                  "file_count": 99,
+                  "size_in_bytes": 321093403
+                },
+                "start_time_in_millis": 1645403516262,
+                "time_in_millis": 22065,
+                "number_of_files": 99,
+                "processed_files": 99,
+                "total_size_in_bytes": 321093403,
+                "processed_size_in_bytes": 321093403
+              }
+            },
+            "2": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 99,
+                  "size_in_bytes": 332781297
+                },
+                "total": {
+                  "file_count": 99,
+                  "size_in_bytes": 332781297
+                },
+                "start_time_in_millis": 1645403521162,
+                "time_in_millis": 27409,
+                "number_of_files": 99,
+                "processed_files": 99,
+                "total_size_in_bytes": 332781297,
+                "processed_size_in_bytes": 332781297
+              }
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-s-2022.02.18": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-s-2022.02.19": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        },
+        "comp-7-r-2022.02.21": {
+          "shards_stats": {
+            "initializing": 3,
+            "started": 0,
+            "finalizing": 0,
+            "done": 2,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 173,
+              "size_in_bytes": 1171055199
+            },
+            "total": {
+              "file_count": 173,
+              "size_in_bytes": 1171055199
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 1645403687482,
+            "number_of_files": 173,
+            "processed_files": 173,
+            "total_size_in_bytes": 1171055199,
+            "processed_size_in_bytes": 1171055199
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 88,
+                  "size_in_bytes": 563004338
+                },
+                "total": {
+                  "file_count": 88,
+                  "size_in_bytes": 563004338
+                },
+                "start_time_in_millis": 1645403502050,
+                "time_in_millis": 36436,
+                "number_of_files": 88,
+                "processed_files": 88,
+                "total_size_in_bytes": 563004338,
+                "processed_size_in_bytes": 563004338
+              }
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "DONE",
+              "stats": {
+                "incremental": {
+                  "file_count": 85,
+                  "size_in_bytes": 608050861
+                },
+                "total": {
+                  "file_count": 85,
+                  "size_in_bytes": 608050861
+                },
+                "start_time_in_millis": 1645403649932,
+                "time_in_millis": 37550,
+                "number_of_files": 85,
+                "processed_files": 85,
+                "total_size_in_bytes": 608050861,
+                "processed_size_in_bytes": 608050861
+              }
+            }
+          }
+        },
+        "comp-7-r-2022.02.20": {
+          "shards_stats": {
+            "initializing": 5,
+            "started": 0,
+            "finalizing": 0,
+            "done": 0,
+            "failed": 0,
+            "total": 5
+          },
+          "stats": {
+            "incremental": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "total": {
+              "file_count": 0,
+              "size_in_bytes": 0
+            },
+            "start_time_in_millis": 0,
+            "time_in_millis": 0,
+            "number_of_files": 0,
+            "processed_files": 0,
+            "total_size_in_bytes": 0,
+            "processed_size_in_bytes": 0
+          },
+          "shards": {
+            "0": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "1": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            },
+            "2": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "3": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "ZyUGqudvS-m7__GTRPotHQ"
+            },
+            "4": {
+              "stage": "INIT",
+              "stats": {
+                "incremental": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "total": {
+                  "file_count": 0,
+                  "size_in_bytes": 0
+                },
+                "start_time_in_millis": 0,
+                "time_in_millis": 0,
+                "number_of_files": 0,
+                "processed_files": 0,
+                "total_size_in_bytes": 0,
+                "processed_size_in_bytes": 0
+              },
+              "node": "1rXK5oXrSdS3XeOQQxL8Vw"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

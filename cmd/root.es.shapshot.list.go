@@ -18,8 +18,6 @@ package cmd
 
 import (
 	"fmt"
-	"io/ioutil"
-	"net/http"
 	"os"
 
 	"github.com/olekukonko/tablewriter"
@@ -27,21 +25,8 @@ import (
 	"github.com/trickyearlobe/a2tool/types"
 )
 
-func esGet(uri string) []byte {
-	esURL := fmt.Sprintf("%s://%s:%s/%s", esScheme, esHost, esPort, uri)
-	resp, err := http.Get(esURL)
-	errorExit(err)
-
-	defer resp.Body.Close()
-	body, err := ioutil.ReadAll(resp.Body)
-	errorExit(err)
-
-	return body
-}
-
-// allocationCmd represents the allocation command
-var snapshotsCmd = &cobra.Command{
-	Use:   "snapshots",
+var esSnapshotListCmd = &cobra.Command{
+	Use:   "list",
 	Short: "Show data about ES snapshots",
 	Run: func(cmd *cobra.Command, args []string) {
 
@@ -76,5 +61,5 @@ var snapshotsCmd = &cobra.Command{
 }
 
 func init() {
-	esCmd.AddCommand(snapshotsCmd)
+	esSnapshotCmd.AddCommand(esSnapshotListCmd)
 }

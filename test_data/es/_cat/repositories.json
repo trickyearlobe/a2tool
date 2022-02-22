@@ -1,0 +1,14 @@
+[
+  {
+    "id": "chef-automate-es6-event-feed-service",
+    "type": "fs"
+  },
+  {
+    "id": "chef-automate-es6-ingest-service",
+    "type": "fs"
+  },
+  {
+    "id": "chef-automate-es6-compliance-service",
+    "type": "fs"
+  }
+]
